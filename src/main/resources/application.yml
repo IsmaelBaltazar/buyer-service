@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/banca
+  application:
+    name: buyer-service
