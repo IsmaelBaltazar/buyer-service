@@ -25,7 +25,7 @@ public class BuyerController {
     public Flux<Buyer> getAll(){
         return buyerService.getAll();
     }
-    @GetMapping("/{idMovement}")
+    @GetMapping("/{idBuyer}")
     public Mono<Buyer> getOne(@PathVariable Long idBuyer){
         return buyerService.getOne(idBuyer);
     }
